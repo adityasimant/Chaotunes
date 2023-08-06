@@ -30,12 +30,10 @@ def main():
 
     pygame.mixer.init()
 
-    # Create a themed style for ttk elements
     style = ttk.Style()
     style.configure("TButton", font=("Helvetica", 12), padding=10)
     style.configure("TLabel", font=("Helvetica", 20), background="#f0f0f0")
 
-    # Add a label for the title
     title_label = ttk.Label(root, text="Load the music before playing it :)")
     title_label.pack(pady=10)
 
